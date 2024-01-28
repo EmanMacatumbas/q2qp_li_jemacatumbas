@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter&family=Kavoon&family=Lexend+Exa&family=Lexend+Peta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kavoon&family=Lexend+Exa&family=Lexend+Peta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lexend+Exa&family=Lexend+Peta&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Kavoon', serif;
+}
+.project{
+    font-family: 'Lexend Peta', sans-serif;
+}
+.headau{
+    font-family: 'Kavoon', serif;
+}
+p{
+    font-family: 'Inter', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+
+}
+video{
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+header{
+    height: 13vh;
+    width: 100vw;
+    border: solid 1px black;
+    background-color: #1559BE;
+    top: 0%;
+    overflow-y: hidden;
+    position: fixed;
+}
+h1{
+    font-size: 7vh;
+}
+.headerjelly{
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-bottom: 0.5%;
+}
+.headtext{
+    float: left;
+    font-size: 4vh;
+}
+.headim{
+    margin-left: 2%;
+    top: 2vh;
+    float: left;
+}
+.headimage{
+    height: 10vh;
+}
+.homepage{
+    font-size: 2vh;
+}
+nav{
+    height: 4vh;
+    width: 100vw;
+    background-color: #819DFF;
+    padding-top: 0.3%;
+    padding-left: 1%;
+    bottom: 0%;
+    top: 13vh;
+    position: fixed;
+}
+.button{
+    height: 25vh;
+    aspect-ratio: 1/1;
+    top: 3vh;
+    right: 1.5%;
+    position: fixed;
+}
+.yellowbutton{
+    height: 13vh;
+    aspect-ratio: 1/1;
+    background-color: #000000;
+    border-radius: 50%;
+    top: 9%;
+    right: 4.5%;
+    position: fixed;
+}
+.yelclick{
+    height: 10.5vh;
+    aspect-ratio: 1/1;
+    background-color: #EBFF0B;
+    border-radius: 50%;
+    margin: 9.2%;
+    display: flex;
+    justify-content: center;
+}
+.buttonImgdiv{
+    margin-top: 10%;
+}
+.buttonImg{
+    height: 7.5vh;
+    aspect-ratio: 1/1;
+}
+.logo{
+    border: solid 7px black;
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    aspect-ratio: 1/1;
+    background-color: white;
+    right: 1.5%;
+    position: fixed;
+    border-radius: 50%;
+}
+.smilelogodiv{
+    margin-top: 27%;
+}
+.smilelogo{
+    height: 12vh;
+    aspect-ratio: 2/1;
+}
+video{
+    position: fixed;
+}
+.banner{
+    height: 50vh;
+    width: 60vw;
+    background-color: rgb(59, 59, 59);
+    top: 30vh;
+    left: 5vw;
+    position: absolute;
+    opacity: 70%;
+    box-shadow: -20px 20px 0px #000000;
+}
+.bantext{
+    height: 50vh;
+    width: 60vw;
+    top: 30vh;
+    left: 5vw;
+    position: absolute;
+    opacity: 100%;
+    text-align: center;
+    padding-top: 1.5%;
+}
+#bantext1{
+    font-size: 5vw;
+}
+#bantext2{
+    font-size: 1.5vw;
+}
+.backgroundjelly{
+    height: 110vh;
+    width: 100vw;
+    top: 140vh;
+    position: absolute;
+    background-color: #ffffff;
+}
+.backtext{
+    height: 50vh;
+    width: 40vw;
+    top: 10vh;
+    left: 5vw;
+    position: absolute;
+    text-align: center;
+    padding-top: 1.5%;
+}
+.backpic{
+    height: 60vh;
+    width: 45vw;
+    top: 10vh;
+    left: 50vw;
+    overflow: hidden;
+    position: absolute;
+}
+.backpic1{
+    width: 45vw;
+}
+.achtext{
+    height: 50vh;
+    width: 40vw;
+    top: 10vh;
+    left: 55vw;
+    position: absolute;
+    text-align: center;
+    padding-top: 1.5%;
+}
+.achpic{
+    height: 60vh;
+    width: 45vw;
+    top: 10vh;
+    left: 5vw;
+    overflow: hidden;
+    position: absolute;
+}
+.achpic1{
+    width: 45vw;
+}
+.slant1{
+    height: 40vh;
+    width: 100vw;
+    top: 120vh;
+    background-color: #ffffff;
+    position: absolute;
+    transform: skewY(-10deg);
+}
+.achievmentjelly{
+    height: 100vh;
+    width: 100vw;
+    top: 250vh;
+    position: absolute;
+    background-color: #FFCE1E;
+}
+.slant2{
+    height: 40vh;
+    width: 100vw;
+    top: 230vh;
+    background-color: #FFCE1E;
+    position: absolute;
+    transform: skewY(10deg);
+}
+/*---------------------------------------What we do Page Css----------------------------------------------------------------*/
+.background1{
+    height: 20vh;
+    width: 100vw;
+    top: 20vh;
+    background-color: #FFCE1E;
+    position: fixed;
+    transform: skewY(12deg);
+}
+.background2{
+    height: 200vh;
+    width: 100vw;
+    top: 30vh;
+    background-color: #EBFF0B;
+    position: fixed;
+    transform: skewY(12deg);
+}
+.initiatives{
+    height: 80vh;
+    width: 100vw;
+    top: 30vh;
+    left: 7vw;
+    position: absolute;
+}
+.iniText{
+    width: 30vw;
+    height: 65vh;
+    background-color: rgb(59, 59, 59);
+    opacity: 70%;
+    position: absolute;
+}
+.initext{
+    width: 20vw;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    position: absolute;
+    text-align: center;
+    font-size: larger;
+}
+.iniPic{
+    width: 60vw;
+    height: 65vh;
+    margin-left: 35vw;
+    overflow: hidden;
+    position: absolute;
+}
+.inipic{
+    width: 50vw;
+}
+.involvements{
+    margin-top: 90vh;
+    height: 80vh;
+    width: 100vw;
+    top: 30vh;
+    left: 7vw;
+    position: absolute;
+}
+.invText{
+    width: 30vw;
+    aspect-ratio: 1/1;
+    margin-left: 55vw;
+    background-color: rgb(59, 59, 59);
+    opacity: 70%;
+    position: absolute;
+}
+.invtext{
+    width: 20vw;
+    margin-top: 5vh;
+    margin-left: 60vw;
+    position: absolute;
+    text-align: center;
+    font-size: 2vh;
+}
+.invPic{
+    width: 50vw;
+    height: 65vh;
+    background-color: rgb(59, 59, 59);
+    overflow-y: hidden;
+    position: absolute;
+}
+.invpic{
+    width: 50vw;
+    height: 65vh;
+}
+.activities{
+    margin-top: 180vh;
+    height: 80vh;
+    width: 85vw;
+    top: 30vh;
+    left: 7vw;
+    position: absolute;
+}
+.activityjelly{
+    width: 85vw;
+    height: 65vh;
+    background-color: rgb(59, 59, 59);
+    opacity: 70%;
+    position: absolute;
+}
+.actext{
+    width: 75vw;
+    height: 65vh;
+    margin-left: 5vw;
+    margin-top: 15vh;
+    position: absolute;
+    opacity: 100%;
+    text-align: center;
+    font-size: larger;
+}
+/*-------------------------------------about us page----------------------------------------------------------*/
+.aboutusbody{
+    background-image: url(images/project_smile.jpg);
+}
+.greyblur{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(95, 95, 95);
+    opacity: 60%;
+}
+.aboutusjelly{
+    top: 20vh;
+    width: 70vw;
+    left: 7vw;
+    height: 75vh;
+    opacity: 100%;
+    position: fixed;
+}
+.sectionAB{
+    width: 70vw;
+    height: 23vh;
+    display: flex;
+    justify-content: right;
+}
+.profile{
+    height: 23vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+}
+.circle{
+    height: 23vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+}
+.samtam{
+    height: 23vh;
+    aspect-ratio: 1/1;
+}
+.textAB{
+    width: 50vw;
+    height: 23vh;
+    background-color: #BB9F11;
+}
+.textau{
+    font-size: 2vh;
+    width: 46vw;
+    margin-left: 2vw;
+    text-align: center;
+    margin-top: 2vh;
+}
+.headau{
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
+#s1{
+    margin-bottom: 3vh;
+}
+#s2{
+    margin-bottom: 3vh;
+}
+.textaulink:hover{
+    color: #1559BE;
+}
+.button:hover{
+    height: 50vh;
+    aspect-ratio: 1/1;
+    right: 1%;
+    #but1{
+        animation: yel1 0.5s forwards;
+    }
+    #but2{
+        animation: yel2 0.5s forwards;
+    }
+    #but3{
+        animation: yel3 0.5s forwards;
+    }
+    .logo{
+        animation: logo1 0.5s forwards;
+    }
+}
+.yellowbutton:hover{
+    height: 15vh;
+    aspect-ratio: 1/1;
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    .yelclick{
+        margin-top: 15%;
+        transition: 0.4s;
+    }
+}
+@keyframes yel1{
+    0% {transform: translate(0vw, 0vh);}
+    100% {transform: translate(-130px, 130px);}
+
+}
+@keyframes yel2{
+    0% {transform: translate(0px, 0px);}
+    100% {transform: translate(-170px, 0px);}
+
+}
+@keyframes yel3{
+    0% {transform: translate(0vw, 0vh);}
+    100% {transform: translate(0px, 170px);}
+
+}
+@keyframes logo1{
+    100% {transform: rotate(25deg);}
+}
+footer{
+    height: 15vh;
+    width: 100vw;
+    top: 85vh;
+    position: fixed;
+}
+.icon{
+    background: url(images/sprite.png) no-repeat;
+    width: 67px;
+	height: 66px;
+    float: right;
+}
+#insta{
+    background-position: -290px -221px;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+#fb{
+    background-position: -439px -146px;
+}
